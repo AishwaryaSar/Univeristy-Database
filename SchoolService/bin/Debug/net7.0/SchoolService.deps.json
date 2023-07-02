@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SchoolService/1.0.0": {
+        "dependencies": {
+          "SchoolBusiness": "1.0.0"
+        },
+        "runtime": {
+          "SchoolService.dll": {}
+        }
+      },
+      "SchoolBusiness/1.0.0": {
+        "dependencies": {
+          "SchoolData": "1.0.0",
+          "SchoolDomain": "1.0.0"
+        },
+        "runtime": {
+          "SchoolBusiness.dll": {}
+        }
+      },
+      "SchoolData/1.0.0": {
+        "dependencies": {
+          "SchoolDomain": "1.0.0"
+        },
+        "runtime": {
+          "SchoolData.dll": {}
+        }
+      },
+      "SchoolDomain/1.0.0": {
+        "runtime": {
+          "SchoolDomain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SchoolService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolDomain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
